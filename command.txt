@@ -8,3 +8,6 @@ git checkout main
 # to delete the branch
 git branch -d firsttestbranch
 
+# to setup a branch for upstream
+git push --set-upstream origin firsttestbranch
+
