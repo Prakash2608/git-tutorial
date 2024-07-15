@@ -1,0 +1,10 @@
+# create branch
+git branch firsttestbranch
+
+# change the branch 
+git checkout firsttestbranch
+git checkout main
+
+# to delete the branch
+git branch -d firsttestbranch
+
