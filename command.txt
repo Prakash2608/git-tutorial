@@ -1,3 +1,9 @@
+# to initialize the git
+git init
+
+# to clone the repo
+git clone <url>
+
 # create branch
 git branch firsttestbranch
 
@@ -12,4 +18,27 @@ git branch -d firsttestbranch
 git push --set-upstream origin firsttestbranch
 
 #nothing just checking the branch
+
+# Another concept is conflict
+Always come to main branch, then Merge them
+
+# Another concept  is stashing
+git status
+# this will remove the content from the file
+git status list
+# this will show  the list of no. of stashed files
+
+# this will bring back the content
+git stash apply stash@{0}
+
+# this will clear the content in stash
+git stash clear
+
+# If you added the file but didn't commit and now you want to undo that, for that u need to use reset
+git  reset <filename>
+
+# If you added the file and committed it, now you want to undo that, for that u need to use  revert
+git revert <commit ID>
+
+
 
